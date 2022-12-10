@@ -1,5 +1,8 @@
-const fs = require("fs");
-let data: [string];
+export {};
+
+import fs from 'fs';
+
+let data: string[];
 let trimmedData: number[];
 try {
   data = fs.readFileSync("input.txt", "utf8").split("\n\n");
