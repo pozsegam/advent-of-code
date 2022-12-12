@@ -1,10 +1,6 @@
 import { readFile } from '../readFile';
-import { alphabet } from './alphabet';
 
 const data = readFile("input.txt").trim().split("\n");
-
-// let duplicates: Set<string> = new Set();
-const sample = "vJrwpWtwJgWrhcsFMMfFFhFp";
 
 const findItem = (array: string) => {
   const halfIndex = array.length / 2;
